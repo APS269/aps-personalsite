@@ -43,7 +43,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: './resume.pdf', // Replace with the actual path to your resume file
+      href: '${process.env.PUBLIC_URL}/resume.pdf', // Replace with the actual path to your resume file
       style: 'rounded-br-md',
       download: true,
     },
